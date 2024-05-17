@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bookmarks Manager</title>
+    <style>
+        a:hover{
+            color:red;
+        }
+        header{
+            margin:0px; padding: 0px;
+            background-color: aquamarine;
+            text-align: center;
+            place-items: center;
+            display: grid;
+        }
+        h1{
+            color:red;
+        }
+        #first{
+            color:rgb(172, 104, 56);
+        }
+        .first{
+            color: rgb(168, 44, 54);
+            background-color: gray;
+        }
+        #first p{               /* descendant selector*/
+            color:aquamarine;    
+        }
+        #icon{
+            height: 500px;
+            width: 500px;
+            /* background-image: url(adani.jpg);
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: top; */
+            background: green url(adani.jpg) no-repeat center;
+        }
+        #box1{
+            height:100px;
+            width: 100px;
+            background-color: yellowgreen;
+            text-align: center;
+            text-decoration: underline;
+            text-decoration-style:wavy;
+            text-decoration-color: brown;
+        }
+        #box2{
+            height: 100px;
+            width: 100px;
+            background-color: aquamarine;
+        }
+    </style>
+</head>
+<body>
+<header>
+    <h1>My Bookmarks</h1>
+    <h2>Primary Bookmark</h2>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod nulla dolore nesciunt, eligendi expedita velit a ad temporibus ducimus provident deleniti reiciendis dolores dicta culpa aliquid odit. Ab, fugit qui!</p>
+
+    <p><a target="_blank" href="https://www.google.com">Open Google</a></p>
+    <p><a target="_blank" href="http://www.quora.com">Open Quora</a></p>
+    <p><a target="_blank" href="http://www.youtube.com">Open Youtube</a></p>   
+    <p><a target="_blank" href="http://www.facebook.com">Open facebook</a></p>
+    <p><a target="_blank" href="http://www.codewithharry.com">Open code with harry</a></p>
+    <h2>Secondary Bookmarks</h2>
+    <p><a target="_blank" href="https://www.wifipedia.com">Open wikipedia</a></p>
+    <p><a target="_blank" href="https://www.stackoverflow.com">Open stack over flow</a></p>
+</header>
+    <img src="https://media.istockphoto.com/id/1344939844/photo/hand-holding-drawing-virtual-lightbulb-with-brain-on-bokeh-background-for-creative-and-smart.jpg?s=612x612&w=0&k=20&c=2GLUy6eqCSr0NFRO8CHm8_PUMy9Qc8ryqcsRoe0DEYM=" alt="Inovative ideas image">   <!--image tag-->
+    <img width="600" src="image.png" alt="error">  <!--image error-->
+    <table border="6">  <!--table tag-->
+        <caption>student details</caption>
+        <tr>
+            <th>Name</th>
+            <th>fav food</th>
+            <th>language</th>
+        </tr>
+        <tr>
+            <td colspan="">Likith</td>
+            <td>chapathi Dal</td>
+            <td>telugu</td>
+        </tr>
+        <tr>
+            <td>aravind</td>
+            <td>Roti Dal</td>
+            <td>Tamil</td>
+        </tr>
+    </table>
+    <hr>
+    <ul>                  <!--unordered list-->
+        <li>likith</li>
+        <li>aravind</li>
+        <li>madhan</li>
+    </ul>
+    <hr>
+    <ol type="A">                  <!--ordered list-->
+        <li>likith</li>
+        <li>aravind</li>
+        <li>madhan</li>
+    </ol>
+    <h1>Fill the form</h1>
+    <form action="post">
+         <label for="User name">Enter your username</label>
+         <input type="text" id="user name" placeholder="enter your username"> <br>
+         <input type="radio" id="male" name="gender">
+         <label for="male">Male</label>
+         <input type="radio" id="female" name="gender">
+         <label for="female">Female</label>
+         <br>
+         <select name="fruits">
+            <option value="Apple">Apple</option>
+            <option value="Banana">Banana</option>
+         </select>
+    </form>
+    <hr>
+    <h3 id="first">bharath ka future is in the hands of     annamalai sir</h3>        <!--id-->   
+    <hr>       
+    <div class="first">next modiji will be the pm </div>  <!--class-->
+    <hr>
+    <div id="first">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, id.
+        </p>
+        <!--background selection-->
+    </div>
+    <div id="icon" style="color: red;">likith</div>
+    <hr>
+    <img src="adani.jpg" height="400px" width="600px">
+    <hr><hr><hr><hr>
+    <!--text properties-->
+    <div id="box1">box1</div>
+    <hr><hr>
+    <div id="box2">box2</div>
+
+</body>
+</html>

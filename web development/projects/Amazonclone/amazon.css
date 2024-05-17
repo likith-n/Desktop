@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    height: 60px;
+    width: 100%;
+    background-color: rgb(19,25,33);
+}
+.buttom_box{
+    height: 40px;
+    width: 100%;
+    background-color: rgb(35,47,62);
+}
+img{
+    height: 60px;
+    width: 80px ;
+    background-size: contain;
+}
